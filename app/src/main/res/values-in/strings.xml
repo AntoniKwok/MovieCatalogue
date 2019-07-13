@@ -1,0 +1,44 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Katalog Film</string>
+    <string name="rating_base">/10</string>
+    <string name="rating_value">8</string>
+    <string name="search_text">Cari</string>
+    <string name="favorite_button">Favorit</string>
+    <string name="unfavorite_button">Hapus</string>
+    <string name="image_description">Deskripsi</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tv">Acara TV</string>
+    <string name="title">Judul Film</string>
+    <string name="date">Tanggal Keluar</string>
+    <string name="synopsis">SINOPSIS</string>
+    <string name="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <string name="item_menu">Change Language Settings</string>
+    <string name="item_settings">Pengaturan</string>
+    <string name="title_activity_favorite">Favorit Saya</string>
+
+    <string name="message_save">Berhasil menambahkan ke favorit</string>
+    <string name="message_delete">Berhasil menghapus dari favorit</string>
+
+    <string name="no_data_available">Belum ada data</string>
+
+
+    <!--Notifications-->
+
+    <string name="daily_notif_title">Katalog Film</string>
+    <string name="daily_notif_content">Katalog Film kangen kamu</string>
+    <string name="new_release_notif_title">Ada yang baru nih</string>
+    <string name="new_release_notif_content">keluar hari ini!</string>
+
+    <!--Setting Menu-->
+    <string name="daily_title_switch">Pengingat Harian</string>
+    <string name="daily_desc_switch">Pengingat untuk kembali ke aplikasi</string>
+    <string name="new_title_switch">Pengingat Menerbitkan</string>
+    <string name="new_desc_switch">Pengingat yang menginfokan film terbaru hari ini</string>
+
+</resources>

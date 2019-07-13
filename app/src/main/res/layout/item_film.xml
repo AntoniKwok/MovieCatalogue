@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DimensionSize_MatchParent_WrapContent"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:elevation="3dp"
+    android:background="@drawable/item_film_shape">
+
+    <ImageView
+        android:layout_weight="1"
+        android:contentDescription="@string/image_description"
+        android:id="@+id/cover_photo"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/cover_shape" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextTitle"
+            android:id="@+id/txt_title"
+            android:maxHeight="52dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/title"/>
+
+        <TextView
+            style="@style/TextDate"
+            android:id="@+id/txt_date"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/date" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_rating"
+                style="@style/TextDate"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/rating_value"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+            <TextView
+                style="@style/TextDate"
+                android:id="@+id/txt_rating_base"
+                android:layout_marginTop="-2dp"
+                android:text="@string/rating_base" />
+        </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/rating_bar_item"
+            style="@style/RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="88"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:stepSize="0.1"
+            android:transformPivotX="18dp"
+            android:transformPivotY="15dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
