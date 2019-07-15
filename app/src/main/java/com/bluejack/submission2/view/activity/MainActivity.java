@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         }
 
         RepeatingAlarmManager repeatingAlarmManager = new RepeatingAlarmManager(getApplicationContext());
-
         NewReleaseAlarmManager newReleaseAlarmManager = new NewReleaseAlarmManager(getApplicationContext());
 
     }

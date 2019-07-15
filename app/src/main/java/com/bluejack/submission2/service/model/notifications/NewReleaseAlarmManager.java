@@ -53,7 +53,7 @@ public class NewReleaseAlarmManager extends BroadcastReceiver {
     }
 
     public void setOneTimeAlarm(Context context) {
-
+        alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(context, NewReleaseAlarmManager.class);
         Calendar calendar = Calendar.getInstance();
         calendar.set(Calendar.HOUR_OF_DAY, 8);
@@ -67,7 +67,7 @@ public class NewReleaseAlarmManager extends BroadcastReceiver {
     }
 
     private void showAlarmNotification(Context context, String title, String message, int notifId) {
-        String CHANNEL_ID = "Channel_Release";
+        String CHANNEL_ID = "Channel_Release" + title;
         String CHANNEL_NAME = "Reminder channel";
 
         NotificationManager mNotificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);

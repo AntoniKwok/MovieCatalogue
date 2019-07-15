@@ -27,12 +27,6 @@
 
     <string name="no_data_available">No Data Available</string>
 
-    <!--Notifications-->
-    <string name="daily_notif_title">Catalogue Movie</string>
-    <string name="daily_notif_content">Catalogue Movie missing you</string>
-    <string name="new_release_notif_title">NEW RELEASE</string>
-    <string name="new_release_notif_content">has been release today!</string>
-
     <!--Setting Menu-->
     <string name="daily_title_switch">Daily Reminder</string>
     <string name="daily_desc_switch">Reminder for return to app</string>

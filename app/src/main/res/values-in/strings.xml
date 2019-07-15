@@ -28,12 +28,6 @@
     <string name="no_data_available">Belum ada data</string>
 
 
-    <!--Notifications-->
-
-    <string name="daily_notif_title">Katalog Film</string>
-    <string name="daily_notif_content">Katalog Film kangen kamu</string>
-    <string name="new_release_notif_title">Ada yang baru nih</string>
-    <string name="new_release_notif_content">keluar hari ini!</string>
 
     <!--Setting Menu-->
     <string name="daily_title_switch">Pengingat Harian</string>
